@@ -1,13 +1,22 @@
+header {
+  z-index: 1000;
+  position: fixed;
+  color: white;
+  display: flex;
+  padding: 2.5rem;
+}
+
 body {
   margin: 0;
   padding: 0;
 }
 
 .logo {
+  font-weight: 700;
   color: white;
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: monospace;
 }
 
 .frog1 {
@@ -26,7 +35,7 @@ body {
 .headers1 {
   position: absolute;
   bottom: 125px;
-  left: 40px;
+  left: 2.5rem;
   display: flex;
   flex-direction: column;
   row-gap: 0.7rem;
@@ -65,7 +74,7 @@ body {
 .headers2 {
   position: absolute;
   bottom: 125px;
-  left: 40px;
+  left: 2.5rem;
   display: flex;
   flex-direction: column;
   row-gap: 0.7rem;
