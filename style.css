@@ -1,4 +1,5 @@
-/*shecodes*/
+/*shecodes, quackit, geeksforgeeks*/
+
 html {
   scroll-behavior: smooth;
 }
@@ -150,4 +151,10 @@ div a:hover {
   display: flex;
   flex-direction: column;
   row-gap: 0.7rem;
+}
+
+.music {
+  position: fixed;
+  right: 20px;
+  top: 2.5rem;
 }
