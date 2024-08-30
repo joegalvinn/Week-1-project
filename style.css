@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.frog1 {
+  background-image: url(frogsinspace1.jpg);
+}
+
+.image1 {
+  position: relative;
+  margin-top: 0;
+  padding-top: 0;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.headers1 {
+  position: absolute;
+  bottom: 125px;
+  left: 40px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.7rem;
+}
+
+.h2-1 {
+  margin-top: 0;
+  padding-top: 0;
+  font-family: monospace;
+  font-size: 25px;
+  font-weight: 100;
+  color: white;
+}
+
+.h1-1 {
+  margin-top: 0;
+  padding-top: 0;
+  font-family: monospace;
+  color: white;
+  font-size: 50px;
+}
+
+.frog2 {
+  background-image: url(frogsinspace2.jpg);
+}
+
+.image2 {
+  position: relative;
+  margin-top: 0;
+  padding-top: 0;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.headers2 {
+  position: absolute;
+  bottom: 125px;
+  left: 40px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.7rem;
+}
+
+.h2-2 {
+  margin-top: 0;
+  padding-top: 0;
+  font-family: monospace;
+  font-size: 25px;
+  font-weight: 100;
+  color: white;
+}
+
+.h1-2 {
+  margin-top: 0;
+  padding-top: 0;
+  font-family: monospace;
+  color: white;
+  font-size: 50px;
+}
