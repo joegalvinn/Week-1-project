@@ -3,6 +3,13 @@ body {
   padding: 0;
 }
 
+.logo {
+  color: white;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
 .frog1 {
   background-image: url(frogsinspace1.jpg);
 }
