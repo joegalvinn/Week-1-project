@@ -64,7 +64,9 @@ nav a:hover {
   row-gap: 0.7rem;
 }
 
-.h2-1 {
+.h2-1,
+.h2-2,
+.h2-3 {
   margin-top: 0;
   padding-top: 0;
   font-family: monospace;
@@ -73,7 +75,9 @@ nav a:hover {
   color: white;
 }
 
-.h1-1 {
+.h1-1,
+.h1-2,
+.h1-3 {
   margin-top: 0;
   padding-top: 0;
   font-family: monospace;
@@ -103,19 +107,24 @@ nav a:hover {
   row-gap: 0.7rem;
 }
 
-.h2-2 {
-  margin-top: 0;
-  padding-top: 0;
-  font-family: monospace;
-  font-size: 25px;
-  font-weight: 100;
-  color: white;
+.frog3 {
+  background-image: url(frogsinspace3.jpg);
 }
 
-.h1-2 {
+.image3 {
+  position: relative;
   margin-top: 0;
   padding-top: 0;
-  font-family: monospace;
-  color: white;
-  font-size: 50px;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.headers3 {
+  position: absolute;
+  bottom: 125px;
+  left: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.7rem;
 }
