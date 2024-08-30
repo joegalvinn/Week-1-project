@@ -1,2 +1,2 @@
 # Week-1-project
-first project on course
+First project on Tech Ed course.
