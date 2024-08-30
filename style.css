@@ -1,4 +1,7 @@
 /*shecodes*/
+html {
+  scroll-behavior: smooth;
+}
 
 header {
   z-index: 1000;
