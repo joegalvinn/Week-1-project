@@ -14,6 +14,7 @@ header {
 }
 
 body {
+  z-index: 1;
   margin: 0;
   padding: 0;
 }
@@ -44,6 +45,7 @@ nav a:hover {
 }
 
 .frog1 {
+  z-index: 1;
   background-image: url(frogsinspace1.jpg);
 }
 
@@ -110,6 +112,7 @@ div a:hover {
 }
 
 .frog2 {
+  z-index: 1;
   background-image: url(frogsinspace2.jpg);
 }
 
@@ -132,6 +135,7 @@ div a:hover {
 }
 
 .frog3 {
+  z-index: 1;
   background-image: url(frogsinspace3.jpg);
 }
 
@@ -160,5 +164,31 @@ div a:hover {
 }
 
 .socialmedias {
-  hi
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.fblogo {
+  width: 35px;
+  height: 35px;
+}
+
+.instalogo {
+  width: 45px;
+  height: 35px;
+}
+
+.lilogo {
+  width: 42px;
+  height: 35px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  z-index: 1000;
+  width: 100%;
+  height: 50px;
 }
